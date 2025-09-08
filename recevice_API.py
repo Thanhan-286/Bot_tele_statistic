@@ -1,6 +1,6 @@
 import requests
 from flask import Flask, request,render_template_string,jsonify
-from pyngrok import ngrok,conf
+# from pyngrok import ngrok,conf
 import json
 
 app = Flask(__name__)
